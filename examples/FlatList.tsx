@@ -11,7 +11,7 @@ const DATA = Array(50)
   .fill(0)
   .map((_, index) => ({ id: index }));
 
-export default function App() {
+export default function FlatListExample() {
   const viewableItems = useSharedValue<ViewToken[]>([]);
   return (
     <View style={styles.container}>
